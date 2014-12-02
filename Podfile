@@ -1,3 +1,13 @@
-platform :ios, '5.0'
-pod 'AFNetworking'
-pod 'SDWebImage', '~> 3.2'
+# Uncomment this line to define a global platform for your project
+# platform :ios, '6.0'
+
+target 'Gitorade' do
+pod 'FontAwesomeKit'
+  pod 'STHTTPRequest' 
+
+end
+
+target 'GitoradeTests' do
+
+end
+

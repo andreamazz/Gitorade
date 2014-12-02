@@ -1,15 +1,27 @@
 PODS:
-  - AFNetworking (1.2.0)
-  - SDWebImage (3.2):
-    - SDWebImage/MapKit
-  - SDWebImage/MapKit (3.2)
+  - FontAwesomeKit (2.1.8):
+    - FontAwesomeKit/Core (= 2.1.8)
+    - FontAwesomeKit/FontAwesome (= 2.1.8)
+    - FontAwesomeKit/FoundationIcons (= 2.1.8)
+    - FontAwesomeKit/IonIcons (= 2.1.8)
+    - FontAwesomeKit/Zocial (= 2.1.8)
+  - FontAwesomeKit/Core (2.1.8)
+  - FontAwesomeKit/FontAwesome (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/FoundationIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/IonIcons (2.1.8):
+    - FontAwesomeKit/Core
+  - FontAwesomeKit/Zocial (2.1.8):
+    - FontAwesomeKit/Core
+  - STHTTPRequest (1.0.2)
 
 DEPENDENCIES:
-  - AFNetworking
-  - SDWebImage (~> 3.2)
+  - FontAwesomeKit
+  - STHTTPRequest
 
 SPEC CHECKSUMS:
-  AFNetworking: 3cbae45f61a9f995cdbd56bd571223910d7f4e44
-  SDWebImage: 8082fe8d658ccafaaecd9e5ecda12ed01f09ba9c
+  FontAwesomeKit: a2edea3111dab107b4cc43b85881b404eb063385
+  STHTTPRequest: 9aee3fd1557dcaa380198a9e56d36527ede342d1
 
-COCOAPODS: 0.18.1
+COCOAPODS: 0.35.0

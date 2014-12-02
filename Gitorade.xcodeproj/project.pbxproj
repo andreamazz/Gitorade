@@ -1,376 +1,1076 @@
-// !$*UTF8*$!
-{
-	archiveVersion = 1;
-	classes = {
-	};
-	objectVersion = 46;
-	objects = {
-
-/* Begin PBXBuildFile section */
-		653C0A451716FA2F006A3F59 /* CTUserCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 653C0A441716FA2F006A3F59 /* CTUserCell.m */; };
-		653C0A481716FD3B006A3F59 /* CTDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 653C0A471716FD3B006A3F59 /* CTDetailViewController.m */; };
-		65EE02F51716E36400881D66 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE02F41716E36400881D66 /* UIKit.framework */; };
-		65EE02F71716E36400881D66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE02F61716E36400881D66 /* Foundation.framework */; };
-		65EE02F91716E36400881D66 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 65EE02F81716E36400881D66 /* CoreGraphics.framework */; };
-		65EE02FF1716E36400881D66 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 65EE02FD1716E36400881D66 /* InfoPlist.strings */; };
-		65EE03011716E36400881D66 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE03001716E36400881D66 /* main.m */; };
-		65EE03051716E36400881D66 /* CTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE03041716E36400881D66 /* CTAppDelegate.m */; };
-		65EE03071716E36400881D66 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE03061716E36400881D66 /* Default.png */; };
-		65EE03091716E36400881D66 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE03081716E36400881D66 /* Default@2x.png */; };
-		65EE030B1716E36400881D66 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65EE030A1716E36400881D66 /* Default-568h@2x.png */; };
-		65EE030E1716E36400881D66 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 65EE030C1716E36400881D66 /* MainStoryboard.storyboard */; };
-		65EE03111716E36400881D66 /* CTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65EE03101716E36400881D66 /* CTViewController.m */; };
-		C5327704165F44838BF9AE5C /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F5A542100834221B61D00B4 /* libPods.a */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXFileReference section */
-		5E9362DC4D3E4C86A0B5B6FE /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
-		653C0A431716FA2F006A3F59 /* CTUserCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTUserCell.h; sourceTree = "<group>"; };
-		653C0A441716FA2F006A3F59 /* CTUserCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTUserCell.m; sourceTree = "<group>"; };
-		653C0A461716FD3B006A3F59 /* CTDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CTDetailViewController.h; sourceTree = "<group>"; };
-		653C0A471716FD3B006A3F59 /* CTDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CTDetailViewController.m; sourceTree = "<group>"; };
-		65EE02F11716E36400881D66 /* Gitorade.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Gitorade.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		65EE02F41716E36400881D66 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		65EE02F61716E36400881D66 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		65EE02F81716E36400881D66 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		65EE02FC1716E36400881D66 /* Gitorade-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Gitorade-Info.plist"; sourceTree = "<group>"; };
-		65EE02FE1716E36400881D66 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		65EE03001716E36400881D66 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		65EE03021716E36400881D66 /* Gitorade-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Gitorade-Prefix.pch"; sourceTree = "<group>"; };
-		65EE03031716E36400881D66 /* CTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTAppDelegate.h; sourceTree = "<group>"; };
-		65EE03041716E36400881D66 /* CTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTAppDelegate.m; sourceTree = "<group>"; };
-		65EE03061716E36400881D66 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
-		65EE03081716E36400881D66 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
-		65EE030A1716E36400881D66 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
-		65EE030D1716E36400881D66 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		65EE030F1716E36400881D66 /* CTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CTViewController.h; sourceTree = "<group>"; };
-		65EE03101716E36400881D66 /* CTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CTViewController.m; sourceTree = "<group>"; };
-		9F5A542100834221B61D00B4 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		65EE02EE1716E36400881D66 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65EE02F51716E36400881D66 /* UIKit.framework in Frameworks */,
-				65EE02F71716E36400881D66 /* Foundation.framework in Frameworks */,
-				65EE02F91716E36400881D66 /* CoreGraphics.framework in Frameworks */,
-				C5327704165F44838BF9AE5C /* libPods.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXFrameworksBuildPhase section */
-
-/* Begin PBXGroup section */
-		653C0A421716F9A6006A3F59 /* Support */ = {
-			isa = PBXGroup;
-			children = (
-				653C0A431716FA2F006A3F59 /* CTUserCell.h */,
-				653C0A441716FA2F006A3F59 /* CTUserCell.m */,
-			);
-			name = Support;
-			sourceTree = "<group>";
-		};
-		658ECDB81717FB2A002D2301 /* ViewController */ = {
-			isa = PBXGroup;
-			children = (
-				65EE030F1716E36400881D66 /* CTViewController.h */,
-				65EE03101716E36400881D66 /* CTViewController.m */,
-				653C0A461716FD3B006A3F59 /* CTDetailViewController.h */,
-				653C0A471716FD3B006A3F59 /* CTDetailViewController.m */,
-			);
-			name = ViewController;
-			sourceTree = "<group>";
-		};
-		65EE02E81716E36400881D66 = {
-			isa = PBXGroup;
-			children = (
-				65EE02FA1716E36400881D66 /* Gitorade */,
-				65EE02F31716E36400881D66 /* Frameworks */,
-				65EE02F21716E36400881D66 /* Products */,
-				5E9362DC4D3E4C86A0B5B6FE /* Pods.xcconfig */,
-			);
-			sourceTree = "<group>";
-		};
-		65EE02F21716E36400881D66 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				65EE02F11716E36400881D66 /* Gitorade.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		65EE02F31716E36400881D66 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				65EE02F41716E36400881D66 /* UIKit.framework */,
-				65EE02F61716E36400881D66 /* Foundation.framework */,
-				65EE02F81716E36400881D66 /* CoreGraphics.framework */,
-				9F5A542100834221B61D00B4 /* libPods.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		65EE02FA1716E36400881D66 /* Gitorade */ = {
-			isa = PBXGroup;
-			children = (
-				653C0A421716F9A6006A3F59 /* Support */,
-				65EE03031716E36400881D66 /* CTAppDelegate.h */,
-				65EE03041716E36400881D66 /* CTAppDelegate.m */,
-				65EE030C1716E36400881D66 /* MainStoryboard.storyboard */,
-				658ECDB81717FB2A002D2301 /* ViewController */,
-				65EE02FB1716E36400881D66 /* Supporting Files */,
-			);
-			path = Gitorade;
-			sourceTree = "<group>";
-		};
-		65EE02FB1716E36400881D66 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				65EE02FC1716E36400881D66 /* Gitorade-Info.plist */,
-				65EE02FD1716E36400881D66 /* InfoPlist.strings */,
-				65EE03001716E36400881D66 /* main.m */,
-				65EE03021716E36400881D66 /* Gitorade-Prefix.pch */,
-				65EE03061716E36400881D66 /* Default.png */,
-				65EE03081716E36400881D66 /* Default@2x.png */,
-				65EE030A1716E36400881D66 /* Default-568h@2x.png */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-/* End PBXGroup section */
-
-/* Begin PBXNativeTarget section */
-		65EE02F01716E36400881D66 /* Gitorade */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 65EE03141716E36400881D66 /* Build configuration list for PBXNativeTarget "Gitorade" */;
-			buildPhases = (
-				F270BA5CCF924631A1793CF0 /* Check Pods Manifest.lock */,
-				65EE02ED1716E36400881D66 /* Sources */,
-				65EE02EE1716E36400881D66 /* Frameworks */,
-				65EE02EF1716E36400881D66 /* Resources */,
-				B3EB44EBC7884E09870AFDDC /* Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = Gitorade;
-			productName = Gitorade;
-			productReference = 65EE02F11716E36400881D66 /* Gitorade.app */;
-			productType = "com.apple.product-type.application";
-		};
-/* End PBXNativeTarget section */
-
-/* Begin PBXProject section */
-		65EE02E91716E36400881D66 /* Project object */ = {
-			isa = PBXProject;
-			attributes = {
-				CLASSPREFIX = CT;
-				LastUpgradeCheck = 0460;
-				ORGANIZATIONNAME = Centec;
-			};
-			buildConfigurationList = 65EE02EC1716E36400881D66 /* Build configuration list for PBXProject "Gitorade" */;
-			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
-			hasScannedForEncodings = 0;
-			knownRegions = (
-				en,
-			);
-			mainGroup = 65EE02E81716E36400881D66;
-			productRefGroup = 65EE02F21716E36400881D66 /* Products */;
-			projectDirPath = "";
-			projectRoot = "";
-			targets = (
-				65EE02F01716E36400881D66 /* Gitorade */,
-			);
-		};
-/* End PBXProject section */
-
-/* Begin PBXResourcesBuildPhase section */
-		65EE02EF1716E36400881D66 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65EE02FF1716E36400881D66 /* InfoPlist.strings in Resources */,
-				65EE03071716E36400881D66 /* Default.png in Resources */,
-				65EE03091716E36400881D66 /* Default@2x.png in Resources */,
-				65EE030B1716E36400881D66 /* Default-568h@2x.png in Resources */,
-				65EE030E1716E36400881D66 /* MainStoryboard.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		B3EB44EBC7884E09870AFDDC /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
-		};
-		F270BA5CCF924631A1793CF0 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sanbox is not in sync with the Podfile.lock. Run 'pod install'.\nEOM\n    exit 1\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
-/* Begin PBXSourcesBuildPhase section */
-		65EE02ED1716E36400881D66 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				65EE03011716E36400881D66 /* main.m in Sources */,
-				65EE03051716E36400881D66 /* CTAppDelegate.m in Sources */,
-				65EE03111716E36400881D66 /* CTViewController.m in Sources */,
-				653C0A451716FA2F006A3F59 /* CTUserCell.m in Sources */,
-				653C0A481716FD3B006A3F59 /* CTDetailViewController.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		65EE02FD1716E36400881D66 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65EE02FE1716E36400881D66 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		65EE030C1716E36400881D66 /* MainStoryboard.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				65EE030D1716E36400881D66 /* en */,
-			);
-			name = MainStoryboard.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
-
-/* Begin XCBuildConfiguration section */
-		65EE03121716E36400881D66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = NO;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				ONLY_ACTIVE_ARCH = YES;
-				SDKROOT = iphoneos;
-			};
-			name = Debug;
-		};
-		65EE03131716E36400881D66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
-				CLANG_CXX_LIBRARY = "libc++";
-				CLANG_ENABLE_OBJC_ARC = YES;
-				CLANG_WARN_CONSTANT_CONVERSION = YES;
-				CLANG_WARN_EMPTY_BODY = YES;
-				CLANG_WARN_ENUM_CONVERSION = YES;
-				CLANG_WARN_INT_CONVERSION = YES;
-				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				COPY_PHASE_STRIP = YES;
-				GCC_C_LANGUAGE_STANDARD = gnu99;
-				GCC_WARN_ABOUT_RETURN_TYPE = YES;
-				GCC_WARN_UNINITIALIZED_AUTOS = YES;
-				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
-				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
-				SDKROOT = iphoneos;
-				VALIDATE_PRODUCT = YES;
-			};
-			name = Release;
-		};
-		65EE03151716E36400881D66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E9362DC4D3E4C86A0B5B6FE /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gitorade/Gitorade-Prefix.pch";
-				INFOPLIST_FILE = "Gitorade/Gitorade-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Debug;
-		};
-		65EE03161716E36400881D66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E9362DC4D3E4C86A0B5B6FE /* Pods.xcconfig */;
-			buildSettings = {
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "Gitorade/Gitorade-Prefix.pch";
-				INFOPLIST_FILE = "Gitorade/Gitorade-Info.plist";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
-			};
-			name = Release;
-		};
-/* End XCBuildConfiguration section */
-
-/* Begin XCConfigurationList section */
-		65EE02EC1716E36400881D66 /* Build configuration list for PBXProject "Gitorade" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65EE03121716E36400881D66 /* Debug */,
-				65EE03131716E36400881D66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		65EE03141716E36400881D66 /* Build configuration list for PBXNativeTarget "Gitorade" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				65EE03151716E36400881D66 /* Debug */,
-				65EE03161716E36400881D66 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-/* End XCConfigurationList section */
-	};
-	rootObject = 65EE02E91716E36400881D66 /* Project object */;
-}
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>archiveVersion</key>
+	<string>1</string>
+	<key>classes</key>
+	<dict/>
+	<key>objectVersion</key>
+	<string>46</string>
+	<key>objects</key>
+	<dict>
+		<key>3EDC366110304C60108454E7</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BAAC6D58E698766CECCD51D8</string>
+				<string>9DBB8AA9816A3B399C1FAACA</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040301A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6590403B1A2DCC9100BAED7E</string>
+				<string>659040551A2DCC9100BAED7E</string>
+				<string>6590403A1A2DCC9100BAED7E</string>
+				<string>3EDC366110304C60108454E7</string>
+				<string>6D193CE67FAFC38449A7DE9E</string>
+			</array>
+			<key>indentWidth</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+			<key>tabWidth</key>
+			<string>4</string>
+			<key>usesTabs</key>
+			<string>0</string>
+		</dict>
+		<key>659040311A2DCC9100BAED7E</key>
+		<dict>
+			<key>attributes</key>
+			<dict>
+				<key>LastUpgradeCheck</key>
+				<string>0610</string>
+				<key>ORGANIZATIONNAME</key>
+				<string>Fancy Pixel</string>
+				<key>TargetAttributes</key>
+				<dict>
+					<key>659040381A2DCC9100BAED7E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1</string>
+					</dict>
+					<key>659040511A2DCC9100BAED7E</key>
+					<dict>
+						<key>CreatedOnToolsVersion</key>
+						<string>6.1</string>
+						<key>TestTargetID</key>
+						<string>659040381A2DCC9100BAED7E</string>
+					</dict>
+				</dict>
+			</dict>
+			<key>buildConfigurationList</key>
+			<string>659040341A2DCC9100BAED7E</string>
+			<key>compatibilityVersion</key>
+			<string>Xcode 3.2</string>
+			<key>developmentRegion</key>
+			<string>English</string>
+			<key>hasScannedForEncodings</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXProject</string>
+			<key>knownRegions</key>
+			<array>
+				<string>en</string>
+				<string>Base</string>
+			</array>
+			<key>mainGroup</key>
+			<string>659040301A2DCC9100BAED7E</string>
+			<key>productRefGroup</key>
+			<string>6590403A1A2DCC9100BAED7E</string>
+			<key>projectDirPath</key>
+			<string></string>
+			<key>projectReferences</key>
+			<array/>
+			<key>projectRoot</key>
+			<string></string>
+			<key>targets</key>
+			<array>
+				<string>659040381A2DCC9100BAED7E</string>
+				<string>659040511A2DCC9100BAED7E</string>
+			</array>
+		</dict>
+		<key>659040341A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6590405A1A2DCC9100BAED7E</string>
+				<string>6590405B1A2DCC9100BAED7E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>659040351A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>659040451A2DCC9100BAED7E</string>
+				<string>659040421A2DCC9100BAED7E</string>
+				<string>6590403F1A2DCC9100BAED7E</string>
+				<string>65FCE6821A2E1ACB007E20A9</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>659040361A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>93B5097F955F2C19BFBDB846</string>
+			</array>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>659040371A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>659040481A2DCC9100BAED7E</string>
+				<string>6590404D1A2DCC9100BAED7E</string>
+				<string>6590404A1A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>659040381A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6590405C1A2DCC9100BAED7E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>88588A2D2AE7490E31CC3B23</string>
+				<string>659040351A2DCC9100BAED7E</string>
+				<string>659040361A2DCC9100BAED7E</string>
+				<string>659040371A2DCC9100BAED7E</string>
+				<string>84EFE3C5A21399272F21D1B1</string>
+				<string>A2F7D1991F634FA0AEF9FA36</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>Gitorade</string>
+			<key>productName</key>
+			<string>Gitorade</string>
+			<key>productReference</key>
+			<string>659040391A2DCC9100BAED7E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.application</string>
+		</dict>
+		<key>659040391A2DCC9100BAED7E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.application</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>Gitorade.app</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>6590403A1A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>659040391A2DCC9100BAED7E</string>
+				<string>659040521A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590403B1A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>659040401A2DCC9100BAED7E</string>
+				<string>659040411A2DCC9100BAED7E</string>
+				<string>659040431A2DCC9100BAED7E</string>
+				<string>659040441A2DCC9100BAED7E</string>
+				<string>65FCE6801A2E1ACB007E20A9</string>
+				<string>65FCE6811A2E1ACB007E20A9</string>
+				<string>659040461A2DCC9100BAED7E</string>
+				<string>659040491A2DCC9100BAED7E</string>
+				<string>6590404B1A2DCC9100BAED7E</string>
+				<string>6590403C1A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Gitorade</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590403C1A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6590403D1A2DCC9100BAED7E</string>
+				<string>6590403E1A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590403D1A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590403E1A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>main.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590403F1A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6590403E1A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>659040401A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>AppDelegate.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040411A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>AppDelegate.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040421A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>659040411A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>659040431A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>ViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040441A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>ViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040451A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>659040441A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>659040461A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>659040471A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040471A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.storyboard</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/Main.storyboard</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040481A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>659040461A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>659040491A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>folder.assetcatalog</string>
+			<key>path</key>
+			<string>Images.xcassets</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590404A1A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>659040491A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6590404B1A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>6590404C1A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXVariantGroup</string>
+			<key>name</key>
+			<string>LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590404C1A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>file.xib</string>
+			<key>name</key>
+			<string>Base</string>
+			<key>path</key>
+			<string>Base.lproj/LaunchScreen.xib</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6590404D1A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>6590404B1A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6590404E1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>659040591A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXSourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>6590404F1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>659040501A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXResourcesBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>659040511A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>6590405F1A2DCC9100BAED7E</string>
+			<key>buildPhases</key>
+			<array>
+				<string>6590404E1A2DCC9100BAED7E</string>
+				<string>6590404F1A2DCC9100BAED7E</string>
+				<string>659040501A2DCC9100BAED7E</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array>
+				<string>659040541A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>GitoradeTests</string>
+			<key>productName</key>
+			<string>GitoradeTests</string>
+			<key>productReference</key>
+			<string>659040521A2DCC9100BAED7E</string>
+			<key>productType</key>
+			<string>com.apple.product-type.bundle.unit-test</string>
+		</dict>
+		<key>659040521A2DCC9100BAED7E</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.cfbundle</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>GitoradeTests.xctest</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>659040531A2DCC9100BAED7E</key>
+		<dict>
+			<key>containerPortal</key>
+			<string>659040311A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXContainerItemProxy</string>
+			<key>proxyType</key>
+			<string>1</string>
+			<key>remoteGlobalIDString</key>
+			<string>659040381A2DCC9100BAED7E</string>
+			<key>remoteInfo</key>
+			<string>Gitorade</string>
+		</dict>
+		<key>659040541A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXTargetDependency</string>
+			<key>target</key>
+			<string>659040381A2DCC9100BAED7E</string>
+			<key>targetProxy</key>
+			<string>659040531A2DCC9100BAED7E</string>
+		</dict>
+		<key>659040551A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>659040581A2DCC9100BAED7E</string>
+				<string>659040561A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>GitoradeTests</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040561A2DCC9100BAED7E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>659040571A2DCC9100BAED7E</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Supporting Files</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040571A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040581A2DCC9100BAED7E</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>GitoradeTests.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>659040591A2DCC9100BAED7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>659040581A2DCC9100BAED7E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6590405A1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_DYNAMIC_NO_PIC</key>
+				<string>NO</string>
+				<key>GCC_OPTIMIZATION_LEVEL</key>
+				<string>0</string>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
+				<string>NO</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_MISSING_NEWLINE</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_CHECK_SWITCH_STATEMENTS</key>
+				<string>YES</string>
+				<key>GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED</key>
+				<string>YES</string>
+				<key>GCC_WARN_MISSING_PARENTHESES</key>
+				<string>YES</string>
+				<key>GCC_WARN_SHADOW</key>
+				<string>YES</string>
+				<key>GCC_WARN_SIGN_COMPARE</key>
+				<string>YES</string>
+				<key>GCC_WARN_TYPECHECK_CALLS_TO_PRINTF</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_LABEL</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VALUE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>YES</string>
+				<key>ONLY_ACTIVE_ARCH</key>
+				<string>YES</string>
+				<key>RUN_CLANG_STATIC_ANALYZER</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6590405B1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>ALWAYS_SEARCH_USER_PATHS</key>
+				<string>NO</string>
+				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
+				<string>gnu++0x</string>
+				<key>CLANG_CXX_LIBRARY</key>
+				<string>libc++</string>
+				<key>CLANG_ENABLE_MODULES</key>
+				<string>YES</string>
+				<key>CLANG_ENABLE_OBJC_ARC</key>
+				<string>YES</string>
+				<key>CLANG_WARN_BOOL_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS</key>
+				<string>YES</string>
+				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_EMPTY_BODY</key>
+				<string>YES</string>
+				<key>CLANG_WARN_ENUM_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_INT_CONVERSION</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF</key>
+				<string>YES</string>
+				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
+				<string>YES_ERROR</string>
+				<key>CLANG_WARN_UNREACHABLE_CODE</key>
+				<string>YES</string>
+				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
+				<string>YES</string>
+				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
+				<string>iPhone Developer</string>
+				<key>COPY_PHASE_STRIP</key>
+				<string>YES</string>
+				<key>ENABLE_NS_ASSERTIONS</key>
+				<string>NO</string>
+				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
+				<string>YES</string>
+				<key>GCC_C_LANGUAGE_STANDARD</key>
+				<string>gnu99</string>
+				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_MISSING_FIELD_INITIALIZERS</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_MISSING_NEWLINE</key>
+				<string>YES</string>
+				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
+				<string>YES</string>
+				<key>GCC_WARN_CHECK_SWITCH_STATEMENTS</key>
+				<string>YES</string>
+				<key>GCC_WARN_INITIALIZER_NOT_FULLY_BRACKETED</key>
+				<string>YES</string>
+				<key>GCC_WARN_MISSING_PARENTHESES</key>
+				<string>YES</string>
+				<key>GCC_WARN_SHADOW</key>
+				<string>YES</string>
+				<key>GCC_WARN_SIGN_COMPARE</key>
+				<string>YES</string>
+				<key>GCC_WARN_TYPECHECK_CALLS_TO_PRINTF</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
+				<string>YES_AGGRESSIVE</string>
+				<key>GCC_WARN_UNUSED_FUNCTION</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_LABEL</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VALUE</key>
+				<string>YES</string>
+				<key>GCC_WARN_UNUSED_VARIABLE</key>
+				<string>YES</string>
+				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
+				<string>8.1</string>
+				<key>MTL_ENABLE_DEBUG_INFO</key>
+				<string>NO</string>
+				<key>RUN_CLANG_STATIC_ANALYZER</key>
+				<string>YES</string>
+				<key>SDKROOT</key>
+				<string>iphoneos</string>
+				<key>VALIDATE_PRODUCT</key>
+				<string>YES</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6590405C1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>6590405D1A2DCC9100BAED7E</string>
+				<string>6590405E1A2DCC9100BAED7E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>6590405D1A2DCC9100BAED7E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>BAAC6D58E698766CECCD51D8</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Gitorade/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>6590405E1A2DCC9100BAED7E</key>
+		<dict>
+			<key>baseConfigurationReference</key>
+			<string>9DBB8AA9816A3B399C1FAACA</string>
+			<key>buildSettings</key>
+			<dict>
+				<key>ASSETCATALOG_COMPILER_APPICON_NAME</key>
+				<string>AppIcon</string>
+				<key>INFOPLIST_FILE</key>
+				<string>Gitorade/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>6590405F1A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>659040601A2DCC9100BAED7E</string>
+				<string>659040611A2DCC9100BAED7E</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>659040601A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
+				<array>
+					<string>DEBUG=1</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>GitoradeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Gitorade.app/Gitorade</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Debug</string>
+		</dict>
+		<key>659040611A2DCC9100BAED7E</key>
+		<dict>
+			<key>buildSettings</key>
+			<dict>
+				<key>BUNDLE_LOADER</key>
+				<string>$(TEST_HOST)</string>
+				<key>FRAMEWORK_SEARCH_PATHS</key>
+				<array>
+					<string>$(SDKROOT)/Developer/Library/Frameworks</string>
+					<string>$(inherited)</string>
+				</array>
+				<key>INFOPLIST_FILE</key>
+				<string>GitoradeTests/Info.plist</string>
+				<key>LD_RUNPATH_SEARCH_PATHS</key>
+				<string>$(inherited) @executable_path/Frameworks @loader_path/Frameworks</string>
+				<key>PRODUCT_NAME</key>
+				<string>$(TARGET_NAME)</string>
+				<key>TEST_HOST</key>
+				<string>$(BUILT_PRODUCTS_DIR)/Gitorade.app/Gitorade</string>
+			</dict>
+			<key>isa</key>
+			<string>XCBuildConfiguration</string>
+			<key>name</key>
+			<string>Release</string>
+		</dict>
+		<key>65FCE6801A2E1ACB007E20A9</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>DetailViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65FCE6811A2E1ACB007E20A9</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>DetailViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>65FCE6821A2E1ACB007E20A9</key>
+		<dict>
+			<key>fileRef</key>
+			<string>65FCE6811A2E1ACB007E20A9</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>6D193CE67FAFC38449A7DE9E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CA0C826C61BCBD5101B635AB</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Frameworks</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>84EFE3C5A21399272F21D1B1</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Copy Pods Resources</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>"${SRCROOT}/Pods/Target Support Files/Pods-Gitorade/Pods-Gitorade-resources.sh"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>88588A2D2AE7490E31CC3B23</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Check Pods Manifest.lock</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>diff "${PODS_ROOT}/../Podfile.lock" "${PODS_ROOT}/Manifest.lock" &gt; /dev/null
+if [[ $? != 0 ]] ; then
+    cat &lt;&lt; EOM
+error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.
+EOM
+    exit 1
+fi
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>0</string>
+		</dict>
+		<key>93B5097F955F2C19BFBDB846</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA0C826C61BCBD5101B635AB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>9DBB8AA9816A3B399C1FAACA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Gitorade.release.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Gitorade/Pods-Gitorade.release.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A2F7D1991F634FA0AEF9FA36</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array/>
+			<key>inputPaths</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXShellScriptBuildPhase</string>
+			<key>name</key>
+			<string>Warn for TODO and FIXME comments</string>
+			<key>outputPaths</key>
+			<array/>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+			<key>shellPath</key>
+			<string>/bin/sh</string>
+			<key>shellScript</key>
+			<string>KEYWORDS="TODO:|FIXME:|\?\?\?:|\!\!\!:"
+FILE_EXTENSIONS="h|m|mm|c|cpp"
+find -E "${SRCROOT}" -ipath "${SRCROOT}/pods" -prune -o \( -regex ".*\.($FILE_EXTENSIONS)$" \) -print0 | xargs -0 egrep --with-filename --line-number --only-matching "($KEYWORDS).*\$" | perl -p -e "s/($KEYWORDS)/ warning: \$1/"
+</string>
+			<key>showEnvVarsInLog</key>
+			<string>1</string>
+		</dict>
+		<key>BAAC6D58E698766CECCD51D8</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>name</key>
+			<string>Pods-Gitorade.debug.xcconfig</string>
+			<key>path</key>
+			<string>Pods/Target Support Files/Pods-Gitorade/Pods-Gitorade.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>CA0C826C61BCBD5101B635AB</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>archive.ar</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>path</key>
+			<string>libPods-Gitorade.a</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+	</dict>
+	<key>rootObject</key>
+	<string>659040311A2DCC9100BAED7E</string>
+</dict>
+</plist>

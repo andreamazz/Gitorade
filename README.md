@@ -1,20 +1,14 @@
-Gitorade
-==================
+#Gitorade
 
-Gitorade is a simple app used in class to show students the basics of iOS. It's based on [Peepcode](https://peepcode.com/)'s  Play by Play series.
+Gitorade is a simple app used in class to show students the basics of iOS. 
 
-The project requires cocoapods.
-
-Setup
---------------------
-* Install [rubygems](http://rubygems.org/)
-* Run ```gem install cocoapods``` in your project's folder
+##Setup
+* Install [cocoapods](http://cocoapods.org)
 * Run ```pod install``` in your project's folder
 * Run ```open Gitorade.xcworkspace```
 
-MIT License
---------------------
-	Copyright (c) 2013 Andrea Mazzini. All rights reserved.
+##MIT License
+	Copyright (c) 2014 Andrea Mazzini. All rights reserved.
 
 	Permission is hereby granted, free of charge, to any person obtaining a
 	copy of this software and associated documentation files (the "Software"),
