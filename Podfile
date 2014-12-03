@@ -2,9 +2,8 @@
 # platform :ios, '6.0'
 
 target 'Gitorade' do
-pod 'FontAwesomeKit'
+  pod 'FontAwesomeKit'
   pod 'STHTTPRequest' 
-
 end
 
 target 'GitoradeTests' do
